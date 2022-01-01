@@ -1,6 +1,6 @@
 # random-wallpaper-feh
 
-A bash script to download a random wallpaper from Wallpaper Cave and apply wallpaper using feh.
+A bash script to download a random wallpaper from Wallpaper Cave or Wallhaven and apply wallpaper using feh.
 
 ## Requirements
 
@@ -11,11 +11,19 @@ A bash script to download a random wallpaper from Wallpaper Cave and apply wallp
 ```sh
 git clone https://github.com/axxsh/random-wallpaper-feh.git
 cd random-wallpaper-feh
-chmod +x ranwall.sh
+chmod +x rw-wc.sh (for wallpapercave.com)
+chmod +x rw-wh.sh (for wallhaven.cc)
 ```
 
 ## Usage
 
+### For wallpapers from wallpapercave.com
+
 ```sh
-./ranwall
+./rw-wc.sh
+```
+### For wallpapers from wallhaven.cc
+
+```sh
+./rw-wh.sh
 ```
