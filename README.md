@@ -1,5 +1,6 @@
 # random-wallpaper-feh
-A random wallpaper setter bash script using feh.Wallpapers are from wallpapercave.
+
+A bash script to download a random wallpaper from Wallpaper Cave and apply wallpaper using feh.
 
 ## Requirements
 
