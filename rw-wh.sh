@@ -1,6 +1,7 @@
 #!/bin/bash
 
-file=$(curl -s "https://wallhaven.cc/random" \
+tag=$(echo -e "toplist\nrandom\nhot\nlatest" | shuf -n 1)
+file=$(curl -s "https://wallhaven.cc/${tag}" \
 	| sed 's.<a class="preview".\nwalllink.g' \
 	| grep walllink \
 	| awk -F '"' '{ print $2 }' \
